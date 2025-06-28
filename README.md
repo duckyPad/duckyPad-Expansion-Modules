@@ -1,7 +1,8 @@
 # duckyPad Expansion Module
 
-[Pre-order](https://www.kickstarter.com/projects/dekunukem/duckypad-pro-advanced-macro-scripting-beyond-qmk-via) | [Official Discord](https://discord.gg/4sJCBx5) | [Project Page](https://github.com/dekuNukem/duckyPad-Pro) | [Table of Contents](#table-of-contents)
+[Get duckyPad Pro](https://www.tindie.com/products/37399/) | [Official Discord](https://discord.gg/4sJCBx5) | [Project Page](https://github.com/dekuNukem/duckyPad-Pro) | [Table of Contents](#table-of-contents)
 
+--------------
 
 duckyPad Expansion Module lets you wire up external **switches / buttons / foot pedals** to your duckyPad Pro.
 
@@ -182,6 +183,10 @@ Some notes:
 	* `onRelase` is the opposite
 
 ![alt_text](resources/photos/on.png)
+
+## Communication Protocol
+
+[See this page](tech_notes.md)
 
 ## Questions or Comments?
 
