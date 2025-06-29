@@ -47,7 +47,7 @@ DPEM uses simple **1-byte** data packets to communicate.
 ```
  7 6 5 4 3 2 1 0
 +---------------+
-|CMD|   DATA    |
+|CMD|  PAYLOAD  |
 +---------------+
 ```
 
