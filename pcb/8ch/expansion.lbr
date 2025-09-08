@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -294,27 +294,27 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="DG2204R-8">
+<package name="DG2204R-8-THERMAL">
 <wire x1="-18.8" y1="-7" x2="23.1" y2="-7" width="0.1524" layer="21"/>
 <wire x1="-18.8" y1="9.3" x2="23.1" y2="9.3" width="0.1524" layer="21"/>
 <wire x1="-18.8" y1="9.3" x2="-18.8" y2="-7" width="0.1524" layer="21"/>
 <wire x1="23.1" y1="9.3" x2="23.1" y2="-7" width="0.1524" layer="21"/>
-<pad name="P$1" x="-15" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$2" x="-15" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$3" x="-10" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$4" x="-10" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$5" x="-5" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$6" x="-5" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$7" x="0" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$8" x="0" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$9" x="5" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$10" x="5" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$11" x="10" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$12" x="10" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$13" x="15" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$14" x="15" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$15" x="20" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$16" x="20" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
+<pad name="P$1" x="-15" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$2" x="-15" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$3" x="-10" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$4" x="-10" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$5" x="-5" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$6" x="-5" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$7" x="0" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$8" x="0" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$9" x="5" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$10" x="5" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$11" x="10" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$12" x="10" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$13" x="15" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$14" x="15" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$15" x="20" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$16" x="20" y="-4.1" drill="1.4" diameter="2.54"/>
 <text x="0" y="7.5" size="1.778" layer="51" rot="R180" align="center">OPENING</text>
 </package>
 <package name="USBC_16P_FOOT">
@@ -824,7 +824,7 @@ Source: http://www.osram.convergy.de/</description>
 <gate name="G$1" symbol="WAGO257-8" x="0" y="17.78"/>
 </gates>
 <devices>
-<device name="DG2204-8" package="DG2204R-8">
+<device name="DG2204-8" package="DG2204R-8-THERMAL">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
 <connect gate="G$1" pin="P$2" pad="P$3 P$4"/>

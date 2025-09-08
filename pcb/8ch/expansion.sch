@@ -3837,31 +3837,31 @@ Reduced openings in tStop, pins spread a tiny bit out to hold part on PCB during
 </deviceset>
 </devicesets>
 </library>
-<library name="atx4vc">
-<description>Generated from &lt;b&gt;atx4vc.sch&lt;/b&gt;&lt;p&gt;
+<library name="expansion">
+<description>Generated from &lt;b&gt;expansion.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="DG2204R-8">
-<wire x1="-18.8" y1="-7" x2="23.8" y2="-7" width="0.1524" layer="21"/>
-<wire x1="-18.8" y1="9.3" x2="23.8" y2="9.3" width="0.1524" layer="21"/>
+<package name="DG2204R-8-THERMAL">
+<wire x1="-18.8" y1="-7" x2="23.1" y2="-7" width="0.1524" layer="21"/>
+<wire x1="-18.8" y1="9.3" x2="23.1" y2="9.3" width="0.1524" layer="21"/>
 <wire x1="-18.8" y1="9.3" x2="-18.8" y2="-7" width="0.1524" layer="21"/>
-<wire x1="23.8" y1="9.3" x2="23.8" y2="-7" width="0.1524" layer="21"/>
-<pad name="P$1" x="-15" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$2" x="-15" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$3" x="-10" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$4" x="-10" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$5" x="-5" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$6" x="-5" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$7" x="0" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$8" x="0" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$9" x="5" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$10" x="5" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$11" x="10" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$12" x="10" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$13" x="15" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$14" x="15" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$15" x="20" y="4.1" drill="1.4" diameter="2.54" thermals="no"/>
-<pad name="P$16" x="20" y="-4.1" drill="1.4" diameter="2.54" thermals="no"/>
+<wire x1="23.1" y1="9.3" x2="23.1" y2="-7" width="0.1524" layer="21"/>
+<pad name="P$1" x="-15" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$2" x="-15" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$3" x="-10" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$4" x="-10" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$5" x="-5" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$6" x="-5" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$7" x="0" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$8" x="0" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$9" x="5" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$10" x="5" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$11" x="10" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$12" x="10" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$13" x="15" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$14" x="15" y="-4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$15" x="20" y="4.1" drill="1.4" diameter="2.54"/>
+<pad name="P$16" x="20" y="-4.1" drill="1.4" diameter="2.54"/>
 <text x="0" y="7.5" size="1.778" layer="51" rot="R180" align="center">OPENING</text>
 </package>
 </packages>
@@ -3887,7 +3887,7 @@ by exp-lbrs.ulp</description>
 <gate name="G$1" symbol="WAGO257-8" x="0" y="17.78"/>
 </gates>
 <devices>
-<device name="DG2204-8" package="DG2204R-8">
+<device name="DG2204-8" package="DG2204R-8-THERMAL">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
 <connect gate="G$1" pin="P$2" pad="P$3 P$4"/>
@@ -3960,7 +3960,7 @@ by exp-lbrs.ulp</description>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="5K1"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="U$14" library="atx4vc" deviceset="DG2204R-5.0-8" device="DG2204-8"/>
+<part name="U$14" library="expansion" deviceset="DG2204R-5.0-8" device="DG2204-8"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="AUDIO_JACK_3.5MM" device="_PTH"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="AUDIO_JACK_3.5MM" device="_PTH"/>
 <part name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2"/>
