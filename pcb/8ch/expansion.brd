@@ -8,7 +8,7 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,14 +28,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -195,7 +195,7 @@
 <text x="32.385" y="3.302" size="1.016" layer="25" align="center">3</text>
 <text x="37.2942" y="4.5654" size="1.27" layer="25" align="center">DFU</text>
 <text x="40.8108" y="11.3096" size="1.27" layer="25" rot="R180" align="center">RST</text>
-<text x="31.3402" y="38.5664" size="2.1082" layer="26" rot="MR0" align="center">duckyPad Pro
+<text x="31.3402" y="38.5664" size="2.1082" layer="26" rot="MR0" align="center">duckyPad
 Expansion Module</text>
 <wire x1="2.5" y1="42" x2="59.5" y2="42" width="0" layer="20"/>
 <wire x1="59.5" y1="42" x2="62" y2="39.5" width="0" layer="20" curve="-90"/>
@@ -238,8 +238,7 @@ PAD
 <text x="23.757" y="29.591" size="2.54" layer="26" rot="SMR0" align="center">5</text>
 <text x="13.597" y="29.591" size="2.54" layer="26" rot="SMR0" align="center">7</text>
 <text x="48.768" y="29.472" size="1.9304" layer="26" rot="SMR270" align="center">GND</text>
-<text x="29.8162" y="3.8954" size="1.9304" layer="26" rot="MR0" align="center">dekuNukem 2024</text>
-<text x="28.1652" y="6.8164" size="2.1082" layer="26" rot="MR0" align="center">duckyPad.com</text>
+<text x="28.1652" y="5.2924" size="2.1082" layer="26" rot="MR0" align="center">duckyPad.com</text>
 <text x="39.6632" y="15.8884" size="1.778" layer="25" align="center">1</text>
 <text x="19.7242" y="15.7614" size="1.778" layer="25" align="center">7</text>
 <text x="18.7568" y="13.9566" size="1.4224" layer="25" rot="R180" align="center">GND</text>
